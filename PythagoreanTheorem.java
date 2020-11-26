@@ -1,4 +1,4 @@
-import java.lang.math;
+import java.lang.Math;
 public PythagoreanTheorem {
     public double calculateHypotenuse(int sideA, int sideB);
     double sideA = Math.sqrt(sideA);
