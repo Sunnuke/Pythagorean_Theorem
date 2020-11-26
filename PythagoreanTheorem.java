@@ -1,9 +1,9 @@
 import java.lang.Math;
-public PythagoreanTheorem {
+public class PythagoreanTheorem {
     public double calculateHypotenuse(int sideA, int sideB) {
-        double sideA = Math.sqrt(sideA);
-        double sideB = Math.sqrt(sideB);
-        int sideC = sideA + sideB;
+        double a = Math.sqrt(sideA);
+        double b = Math.sqrt(sideB);
+        double sideC = a + b;
         return sideC;
     }
 }
